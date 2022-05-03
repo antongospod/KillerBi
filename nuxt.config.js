@@ -40,8 +40,8 @@ export default {
     scss: [
       '~/assets/scss/_variables.scss',
       '~/assets/scss/_mixins.scss',
-      '~/assets/scss/_typography.scss'
-    ]
+      '~/assets/scss/_typography.scss',
+    ],
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
