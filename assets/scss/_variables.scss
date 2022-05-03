@@ -1,2 +1,18 @@
 @use 'sass:color';
 @use 'sass:math';
+
+// Colours
+$color__black: var(--color__black);
+$color__white: var(--color__white);
+$color__background: var(--color__background);
+$color__background--light: var(--color__background--light);
+$color__primary: var(--color__primary);
+$color__accent: var(--color__accent);
+$color__text: var(--color__text);
+$color__text--title: var(--color__text--title);
+$color__text--body: var(--color__text--body);
+$color__text--light: var(--color__text--light);
+$color__error: var(--color__error);
+
+// Transitions
+$transition__normal: cubic-bezier(0.4, 0.0, 0.2, 1);
