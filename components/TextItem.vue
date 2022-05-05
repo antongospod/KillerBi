@@ -1,26 +1,21 @@
 <template>
   <component
     :is="tag"
-    :class="classesName"
     :data-align="align"
     :data-size="size"
     :data-weight="weight"
     :data-secondary="secondary"
+    class="text"
   >
     <slot />
   </component>
 </template>
 
 <script>
-import { classes } from '~/utils/style'
 
 export default {
   name: 'TextItem',
   props: {
-    className: {
-      type: String,
-      default: '',
-    },
     size: {
       type: String,
       default: 'm',
@@ -41,11 +36,6 @@ export default {
       type: Boolean,
       default: false,
     },
-  },
-  data() {
-    return {
-      classesName: classes('text', this.className)
-    }
   },
 }
 </script>
