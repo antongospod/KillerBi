@@ -1,13 +1,10 @@
 :root {
-  --color__black: rgb(0, 0, 0);
-  --color__white: rgb(255, 255, 255);
-  --color__background: rgb(17, 17, 17);
-  --color__background--light: rgb(26, 26, 26);
-  --color__primary: rgb(0, 229, 255);
-  --color__accent: rgb(0, 229, 255);
-  --color__text: rgb(255, 255, 255);
-  --color__text--title: rgb(255, 255, 255 / 1);
-  --color__text--body: rgb(255, 255, 255 / 0.8);
-  --color__text--light: rgb(255, 255, 255 / 0.6);
-  --color__error: rgb(255, 55, 102);
+  --color__black: 0, 0, 0;
+  --color__white: 255, 255, 255;
+  --color__background: 17, 17, 17;
+  --color__background--light: 26, 26, 26;
+  --color__primary: 0, 229, 255;
+  --color__accent: 0, 229, 255;
+  --color__text: 255, 255, 255;
+  --color__error: 255, 55, 102;
 }

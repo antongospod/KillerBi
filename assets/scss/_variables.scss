@@ -2,17 +2,39 @@
 @use 'sass:math';
 
 // Colours
-$color__black: var(--color__black);
-$color__white: var(--color__white);
-$color__background: var(--color__background);
-$color__background--light: var(--color__background--light);
-$color__primary: var(--color__primary);
-$color__accent: var(--color__accent);
-$color__text: var(--color__text);
-$color__text--title: var(--color__text--title);
-$color__text--body: var(--color__text--body);
-$color__text--light: var(--color__text--light);
-$color__error: var(--color__error);
+$color__black: rgb(var(--color__black));
+$color__white: rgb(var(--color__white));
+$color__background: rgb(var(--color__background));
+$color__background--light: rgb(var(--color__background--light));
+$color__primary: rgb(var(--color__primary));
+$color__accent: rgb(var(--color__accent));
+$color__text: rgb(var(--color__text));
+$color__text--title: rgba(var(--color__text), 1);
+$color__text--body: rgba(var(--color__text), 0.8);
+$color__text--light: rgba(var(--color__text), 0.6);
+$color__error: rgb(var(--color__error));
 
 // Transitions
 $transition__normal: cubic-bezier(0.4, 0, 0.2, 1);
+
+// Font Properties
+@function pxToRem($target, $context: 16px) {
+  @return math.div($target, $context) * 1rem;
+}
+
+$fontWeightRegular: 400;
+$fontWeightMedium: 500;
+$fontWeightBold: 700;
+$fontSizeH0: pxToRem(140px);
+$fontSizeH1: pxToRem(100px);
+$fontSizeH2: pxToRem(58px);
+$fontSizeH3: pxToRem(38px);
+$fontSizeH4: pxToRem(28px);
+$fontSizeH5: pxToRem(24px);
+$fontSizeBodyXL: pxToRem(22px);
+$fontSizeBodyL: pxToRem(20px);
+$fontSizeBodyM: pxToRem(18px);
+$fontSizeBodyS: pxToRem(16px);
+$fontSizeBodyXS: pxToRem(14px);
+$lineHeightTitle: 1.1;
+$lineHeightBody: 1.6;

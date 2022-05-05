@@ -22,10 +22,9 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
+    '@nuxtjs/style-resources',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -39,8 +38,8 @@ export default {
   styleResources: {
     scss: [
       '~/assets/scss/_variables.scss',
-      '~/assets/scss/_mixins.scss',
       '~/assets/scss/_typography.scss',
+      '~/assets/scss/_mixins.scss',
     ],
   },
 
