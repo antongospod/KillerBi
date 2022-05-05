@@ -46,13 +46,10 @@ $lineHeightTitle: 1.1;
 $lineHeightBody: 1.6;
 
 // Font Stack
-$systemFontStack:
-'system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto, Segoe UI, Ubuntu, Helvetica Neue, sans-serif';
+$systemFontStack: 'system-ui, -apple-system, BlinkMacSystemFont, San Francisco, Roboto, Segoe UI, Ubuntu, Helvetica Neue, sans-serif';
 $fontStack: 'Gotham', #{$systemFontStack};
-$monoFontStack:
-'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace';
-$japaneseFontStack:
-'ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Hiragino Sans, Osaka, メイリオ, Meiryo, Segoe UI, sans-serif';
+$monoFontStack: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace';
+$japaneseFontStack: 'ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Hiragino Sans, Osaka, メイリオ, Meiryo, Segoe UI, sans-serif';
 
 // Breakpoints
 $breakpoint--xs: 400px;
