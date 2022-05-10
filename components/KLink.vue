@@ -20,7 +20,7 @@
 const VALID_EXT = ['txt', 'png', 'jpg']
 
 export default {
-  name: 'LinkItem',
+  name: 'KLink',
   props: {
     href: {
       type: String,

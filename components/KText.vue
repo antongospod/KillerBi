@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: 'TextItem',
+  name: 'KText',
   props: {
     size: {
       type: String,

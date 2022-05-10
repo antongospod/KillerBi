@@ -1,31 +1,29 @@
 <template>
   <div>
-    <text-item size="xl" weight="bold">TextItemComponent (Bold XL)</text-item>
+    <k-text size="xl" weight="bold">TextItemComponent (Bold XL)</k-text>
     <br />
-    <text-item size="l" weight="medium">TextItemComponent (Medium L)</text-item>
+    <k-text size="l" weight="medium">TextItemComponent (Medium L)</k-text>
     <br />
-    <text-item secondary>TextItemComponent (Regular M Secondary)</text-item>
+    <k-text secondary>TextItemComponent (Regular M Secondary)</k-text>
     <br />
-    <text-item size="s" weight="regular"
-      >TextItemComponent (Regular S)</text-item
-    >
+    <k-text size="s" weight="regular">TextItemComponent (Regular S)</k-text>
     <br />
-    <link-item href="#" target="_self"> LinkItemComponent </link-item>
+    <k-link href="#" target="_self"> LinkItemComponent </k-link>
     <br />
-    <link-item secondary href="/humans.txt" target="_self">
+    <k-link secondary href="/humans.txt" target="_self">
       LinkItemComponent (secondary)
-    </link-item>
-    <footer-component />
+    </k-link>
+    <k-footer />
   </div>
 </template>
 
 <script>
-import LinkItem from '~/components/LinkItem'
-import TextItem from '~/components/TextItem'
-import FooterComponent from '~/components/FooterComponent'
+import KLink from '~/components/KLink'
+import KText from '~/components/KText'
+import KFooter from '~/components/KFooter'
 
 export default {
   name: 'IndexPage',
-  components: { LinkItem, TextItem, FooterComponent },
+  components: { KLink, KText, KFooter },
 }
 </script>

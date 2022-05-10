@@ -17,11 +17,11 @@
 </template>
 
 <script>
-import LinkItem from '~/components/LinkItem'
-import TextItem from '~/components/TextItem'
+import LinkItem from '~/components/KLink'
+import TextItem from '~/components/KText'
 
 export default {
-  name: 'FooterComponent',
+  name: 'KFooter',
   components: { LinkItem, TextItem },
 }
 </script>
