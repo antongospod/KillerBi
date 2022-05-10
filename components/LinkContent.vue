@@ -51,20 +51,20 @@ export default {
 <style lang="scss" scoped>
 .link {
   $lineStrokeWidth: 2px;
-  --linkColor: #{$color__primary};
+  --link-color: #{$color__primary};
   $lineOpacity: 0.3;
   $filledLineGradient: linear-gradient(
-    rgb(var(--linkColor)),
-    rgb(var(--linkColor))
+    rgb(var(--link-color)),
+    rgb(var(--link-color))
   );
   $unfilledLineGradient: linear-gradient(
-    rgba(var(--linkColor), $lineOpacity),
-    rgba(var(--linkColor), $lineOpacity)
+    rgba(var(--link-color), $lineOpacity),
+    rgba(var(--link-color), $lineOpacity)
   );
 
   cursor: pointer;
   display: inline;
-  color: rgb(var(--linkColor));
+  color: rgb(var(--link-color));
   background: $filledLineGradient no-repeat 100% 100% / 0 $lineStrokeWidth,
     $unfilledLineGradient no-repeat 0 100% / 100% $lineStrokeWidth;
   padding-bottom: $lineStrokeWidth;
@@ -82,7 +82,7 @@ export default {
   }
 
   &[data-secondary='true'] {
-    --linkColor: #{$color__text};
+    --link-color: #{$color__text};
   }
 }
 </style>
